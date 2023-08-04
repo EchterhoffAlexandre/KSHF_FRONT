@@ -1,0 +1,46 @@
+.landing_box {
+    background-image: url('../../../assets/pixBackground.gif');
+    background-repeat: no-repeat;
+    background-size:100%;
+    overflow: visible;
+}
+
+.mascott_description {
+    font-family: var(--pixel-font);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.70);
+    color: rgb(30, 14, 69);
+    position: absolute;
+    top: 20%;
+    left: 29%;
+    width: 400px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid;
+    padding: 8px;
+
+}
+
+.mascott_description::before {
+    content: '';
+    border-bottom: 8px solid rgba(255, 255, 255, 0.70);
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    margin-top: -14px;
+    margin-left: 0;
+
+}
+.typed-cursor{
+    opacity: 0 !important;
+}
+.navigation_btn {
+    text-align: center;
+    margin-top: 70px;
+}
+.navigation_btn a {
+    font-size: 30px;
+    font-family: var(--pixel-font);
+}

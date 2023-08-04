@@ -1,0 +1,30 @@
+[
+    {
+        "id":"1",
+        "firstname":"abra",
+        "lastname":"cadabra",
+        "email": "abra@cadabra.com",
+        "level":"5",
+        "wallet":"1500",
+        "familly":"El Pinço",
+        "friends":["baguette", "magique", "chapeau", "cape"],
+        "collection":[],
+        "quest":[],
+        "isAdmin": false
+
+    },
+    {
+        "id":"2",
+        "firstname":"dekard",
+        "lastname":"cain",
+        "email": "dekard@cain.com",
+        "level":"155",
+        "wallet":"9999",
+        "familly":"El Pinço",
+        "friends":[],
+        "collection":[],
+        "quest":[],
+        "isAdmin": true
+
+    }
+]

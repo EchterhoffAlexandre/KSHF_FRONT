@@ -1,0 +1,90 @@
+.homepage__container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.home__title {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--h1-font-size);
+    font-family: var(--pixel-font);
+}
+
+.multiple-text {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--pixel-font);
+    color: var(--hover-pixel);
+    font-size: 1.3rem;
+}
+
+.homepage__wrap {
+    flex: 1;
+    margin-top: 6rem;
+}
+
+.homepage__charts {
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-bottom: 8rem;
+}
+
+button {
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    padding: 0.1rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    font-family: var(--body-font);
+}
+
+button:hover {
+    background-color: #44C768;
+    transition: .4s;
+}
+
+.homepage__content {
+    margin-top: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.homepage__content-right {
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-family: var(--pixel-font);
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.homepage__expenses {
+    margin-bottom: 1.5rem;
+}
+
+.homepage__quests {
+    margin-top: 5rem;
+}
+
+.homepage__mainquest {
+    margin-bottom: 1.5rem;
+}
+
+.homepage__expenses-title {
+    margin-bottom: 0.5rem;
+}
+
+.homepage__expenses-link {
+    margin-top: 1.6rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+

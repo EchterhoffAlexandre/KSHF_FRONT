@@ -1,0 +1,75 @@
+
+
+.profil-page-container {
+   width: 100%;
+   font-family:var(--pixel-font) ;
+}
+
+.profil-container{
+    margin: 2.5%;
+    font-size: 2rem;
+    height: 70%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.profil-picture {
+    background-image: url('../../../assets/profil/polaroidFrame-transformed.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.profil{
+    border: 1px solid gray;
+    width: 150%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.profil-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.profil-header>p{
+    margin-top: 10%;
+}
+
+.profil:hover{
+    border: 2px solid green;
+    width: 152%;
+    height: 102%;
+    margin:1% auto;
+    background-color: aquamarine;
+    transition: 0.9s all ease-in-out; 
+}
+.modifiable:hover::before{
+    content:url('../../../assets/icons/history_edu_black_48dp.svg');  
+}
+
+.profil-modifiable:hover{
+    background-color: orange;
+    transition: 0.9s all ease-in-out;
+}
+
+.wallet-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.hidden{
+    display: none;
+}
+
+.profil-picture>img{
+    width:75%;
+    height: 75%;
+}

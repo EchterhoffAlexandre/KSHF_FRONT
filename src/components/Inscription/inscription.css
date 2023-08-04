@@ -1,0 +1,80 @@
+h1.signupForm__container-h1 {
+    margin-top: 5.5rem;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.signupForm__container-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: var(--space-lg);
+}
+
+.signupForm__container-box form {
+    display: -ms-grid;
+    display: grid;
+    gap: var(--space-sm);
+    max-width: 25ch;
+}
+
+.signupForm__container-box div {
+    display: -ms-grid;
+    display: grid;
+    max-width: var(--content-sm);
+}
+
+.signupForm__img {
+    margin-left: 3rem;
+}
+
+.signupForm__container-box-form {
+    position: relative;
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.signupForm__container-box-inputBox {
+    position: relative;
+    margin-top: 35px;
+}
+
+.signupForm__btn {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 10px;
+    background: #6ee7b7;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'DotGothic16', sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.signupForm__btn:hover {
+    background-color: #5bceaa;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 0.3rem;
+}
